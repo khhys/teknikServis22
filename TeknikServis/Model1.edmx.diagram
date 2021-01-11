@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="27be70352b5f443ca3d7b3637ada9068" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_TeknikServisModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_TeknikServisModel.Tbl_Admin" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_TeknikServisModel.Tbl_ArizaDetay" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_TeknikServisModel.Tbl_Cari" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_TeknikServisModel.Tbl_Departman" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_TeknikServisModel.Tbl_FaturaBilgi" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_TeknikServisModel.Tbl_FaturaDetay" Width="1.5" PointX="7.5" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_TeknikServisModel.Tbl_Gider" Width="1.5" PointX="9.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_TeknikServisModel.Tbl_Kategori" Width="1.5" PointX="3.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_TeknikServisModel.Tbl_Notlar" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_TeknikServisModel.Tbl_Personel" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_TeknikServisModel.Tbl_Urun" Width="1.5" PointX="6" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_TeknikServisModel.Tbl_UrunHareket" Width="1.5" PointX="8.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_TeknikServisModel.Tbl_UrunTakip" Width="1.5" PointX="8.25" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_TeknikServisModel.Tbl_UrunKabul" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="DB_TeknikServisModel.FK_Tbl_FaturaBilgi_Tbl_Cari" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_TeknikServisModel.FK_Tbl_UrunHareket_Tbl_Cari" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_TeknikServisModel.FK_Tbl_UrunKabul_Tbl_Cari" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_TeknikServisModel.FK_Tbl_Personel_Tbl_Departman" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_TeknikServisModel.FK_Tbl_FaturaBilgi_Tbl_Personel" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_TeknikServisModel.FK_Tbl_FaturaDetay_Tbl_FaturaBilgi" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_TeknikServisModel.FK_Tbl_Urun_Tbl_Kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_TeknikServisModel.FK_Tbl_UrunHareket_Tbl_Personel" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_TeknikServisModel.FK_Tbl_UrunKabul_Tbl_Personel" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_TeknikServisModel.FK_Tbl_UrunHareket_Tbl_Urun" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_TeknikServisModel.FK_Tbl_UrunTakip_Tbl_Urun" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

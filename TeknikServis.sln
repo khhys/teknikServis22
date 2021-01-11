@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeknikServis", "TeknikServis\TeknikServis.csproj", "{0112B5AF-4CA3-4F72-ADB1-E3A730E17B8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0112B5AF-4CA3-4F72-ADB1-E3A730E17B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0112B5AF-4CA3-4F72-ADB1-E3A730E17B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0112B5AF-4CA3-4F72-ADB1-E3A730E17B8E}.Debug|x86.ActiveCfg = Debug|x86
+		{0112B5AF-4CA3-4F72-ADB1-E3A730E17B8E}.Debug|x86.Build.0 = Debug|x86
+		{0112B5AF-4CA3-4F72-ADB1-E3A730E17B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0112B5AF-4CA3-4F72-ADB1-E3A730E17B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0112B5AF-4CA3-4F72-ADB1-E3A730E17B8E}.Release|x86.ActiveCfg = Release|x86
+		{0112B5AF-4CA3-4F72-ADB1-E3A730E17B8E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A879F63-EA5C-4AB7-B280-3DF6181F2CF2}
+	EndGlobalSection
+EndGlobal
